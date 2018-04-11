@@ -1,0 +1,9 @@
+.wave-hidden,
+.wave-active {
+    transform: translate3d(0, 30px, 0);
+    opacity: 0;
+}
+
+.wave-showing {
+    transition: transform .2s cubic-bezier(0.39, 0.575, 0.565, 1), opacity .4s cubic-bezier(0.39, 0.575, 0.565, 1), visibility .4s linear;
+}

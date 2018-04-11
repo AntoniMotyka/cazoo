@@ -1,0 +1,21 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 03 Apr 2018 18:11:34 at http://admin:cazoo@localhost/cazoo/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://admin:cazoo@localhost/cazoo/ -O1 "C:\My Web Sites1\Cazoo" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:14:03	Warning: 	Moved Permanently for localhost/cazoo/?p=73
+18:14:03	Warning: 	File has moved from localhost/cazoo/?p=73 to http://localhost/cazoo/overview-of-moxtra/
+18:14:03	Warning: 	Moved Permanently for localhost/cazoo/?p=57
+18:14:03	Warning: 	File has moved from localhost/cazoo/?p=57 to http://localhost/cazoo/who-are-moxtra/
+18:14:03	Warning: 	Moved Permanently for localhost/cazoo/?p=89
+18:14:03	Warning: 	File has moved from localhost/cazoo/?p=89 to http://localhost/cazoo/ngos/
+18:14:03	Warning: 	Moved Permanently for localhost/cazoo/?p=103
+18:14:03	Warning: 	File has moved from localhost/cazoo/?p=103 to http://localhost/cazoo/financial-services/
+18:14:03	Error: 	"Not Found" (404) at link localhost/cazoo/wp-content/plugins/om-cc-device/assets/img/real/phone/267.323 (from localhost/cazoo/wp-content/plugins/om-cc-device/assets/img/real/phone/rose-landscape.svg)
+18:14:03	Error: 	"Not Found" (404) at link localhost/cazoo/wp-content/plugins/om-cc-device/assets/img/real/phone/213.323 (from localhost/cazoo/wp-content/plugins/om-cc-device/assets/img/real/phone/rose-landscape.svg)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 29 seconds : 213 links scanned, 205 files written (8265702 bytes overall) [9627826 bytes received at 64616 bytes/sec], 7.6 requests per connection
+(2 errors, 8 warnings, 0 messages)

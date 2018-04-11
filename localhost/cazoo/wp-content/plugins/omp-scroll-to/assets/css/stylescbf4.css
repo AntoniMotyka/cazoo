@@ -1,0 +1,103 @@
+
+/* Container */
+
+.omp-scroll-to-container {
+	display: block;
+	margin: 0;
+	padding: 0;
+
+	position: fixed;
+	z-index: 1030;
+
+	transition: all 0.4s;
+}
+.omp-scroll-to-container-left-top,
+.omp-scroll-to-container-left-center,
+.omp-scroll-to-container-left-bottom {
+	left: 1.5rem;
+}
+.omp-scroll-to-container-right-top,
+.omp-scroll-to-container-right-center,
+.omp-scroll-to-container-right-bottom {
+	right: 1.5rem;
+}
+
+.omp-scroll-to-container-left-top,
+.omp-scroll-to-container-right-top {
+	top: 6rem;
+}
+.omp-scroll-to-container-left-center,
+.omp-scroll-to-container-right-center {
+	top: 50%;
+	transform: translateY(-50%);
+}
+.omp-scroll-to-container-left-bottom,
+.omp-scroll-to-container-right-bottom {
+	bottom: 1.5rem;
+}
+
+.omp-scroll-to-hidden {
+	pointer-events: none;
+
+	opacity: 0;
+	visibility: hidden;
+
+	transform: translateY(50%);
+}
+
+.omp-scroll-to-hidden.omp-scroll-to-container-left-center,
+.omp-scroll-to-hidden.omp-scroll-to-container-right-center {
+	transform: translateY(0);
+}
+
+@media (min-width: 783px) {
+	.admin-bar .omp-scroll-to-container {
+		margin-top: 32px;
+	}
+}
+
+/* Link */
+
+.omp-scroll-to-btn {
+	display: inline-block;
+	margin: 0;
+	padding: .5rem;
+
+	line-height: 1;
+	text-decoration: none;
+
+	transition: all 0.4s;
+}
+
+.omp-scroll-to-btn svg {
+	display: block;
+	width: 2rem;
+	height: 2rem;
+}
+
+.omp-scroll-to-btn .arrow {
+	stroke: #333;
+	stroke-width: 2;
+}
+
+/* Arrow 1 */
+
+.om-arrow-1-up .arrow {
+	transform: translateY(8px);
+	transition: transform 0.2s;
+}
+
+.om-arrow-1-up .arrow-shaft {
+	stroke-dasharray: 29 30;
+	stroke-dashoffset: 30;
+	transition: stroke-dashoffset 0.2s ease-in;
+}
+
+.om-arrow-1-up:hover .arrow {
+	transform: none;
+}
+
+.om-arrow-1-up:hover .arrow-shaft {
+	stroke-dashoffset: 0;
+	transition-delay: 0.05s;
+}
